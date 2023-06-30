@@ -56,8 +56,13 @@ Top-styling */
 .flex-container{
     width: 100%;
     display: inline-flex;
+    background-color: rgb(32, 28, 28);
 }
 
+.down-headings{
+color: aqua;
+
+}
 
 .list li{
     list-style-type:none;
@@ -66,8 +71,15 @@ Top-styling */
 
 .list li a{
 text-decoration: none;
+color: aqua;
 
 }
+
+.list li a:hover{
+
+    color: blueviolet;
+}
+
 .row-flex{
 display: inline-flex;
 gap: 18px;
@@ -83,4 +95,11 @@ display: block;
 .ul-inline-block{
 
     display: inline-block;
+}
+
+.navbar-toggler:hover{
+
+background-color:rgb(236, 207, 207) ;
+cursor: pointer;
+
 }
