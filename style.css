@@ -12,9 +12,9 @@ Top-styling */
 
 
 .content {
-    min-height: 120vw;
+    min-height: 100vw;
     width: 100%;
-    background-color: rgb(104, 93, 93);
+    background-color: rgb(236, 207, 207);
     
     
 }
@@ -54,21 +54,33 @@ Top-styling */
 }
 
 .flex-container{
+    width: 100%;
     display: inline-flex;
-    gap: 20%;
 }
 
 
 .list li{
     list-style-type:none;
+    
 }
 
+.list li a{
+text-decoration: none;
+
+}
 .row-flex{
 display: inline-flex;
+gap: 18px;
 
 
 }
 .follow{
-background-color: black;
-    width: 100%;
+display: block;
+
+  width: 100%;
+}
+
+.ul-inline-block{
+
+    display: inline-block;
 }
