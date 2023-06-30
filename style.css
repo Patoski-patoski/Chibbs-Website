@@ -1,3 +1,5 @@
+/* 
+Top-styling */
 .con {
 
     height: 60vh;
@@ -10,7 +12,7 @@
 
 
 .content {
-    min-height: 90vw;
+    min-height: 120vw;
     width: 100%;
     background-color: rgb(104, 93, 93);
     
@@ -33,5 +35,40 @@
 
 .goodpics {
 
+    width: 100%;
+}
+
+
+/* buttom-styling */
+
+.coll{
+    width: 50%;
+ padding-left: 4%;
+    display: flex;
+}
+
+.colll {
+    width: 95%;
+    padding-left:2%;
+ 
+}
+
+.flex-container{
+    display: inline-flex;
+    gap: 20%;
+}
+
+
+.list li{
+    list-style-type:none;
+}
+
+.row-flex{
+display: inline-flex;
+
+
+}
+.follow{
+background-color: black;
     width: 100%;
 }
