@@ -60,7 +60,7 @@ Top-styling */
 }
 
 .down-headings{
-color: aqua;
+color: white;
 
 }
 
@@ -71,7 +71,7 @@ color: aqua;
 
 .list li a{
 text-decoration: none;
-color: aqua;
+color: white;
 
 }
 
@@ -99,7 +99,7 @@ display: block;
 
 .navbar-toggler:hover{
 
-background-color:rgb(236, 207, 207) ;
+background-color:white ;
 cursor: pointer;
 
 }
