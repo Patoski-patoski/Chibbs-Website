@@ -82,7 +82,7 @@ color: aqua;
 
 .row-flex{
 display: inline-flex;
-gap: 15px;
+gap: 8px;
 
 
 }
@@ -101,5 +101,12 @@ display: block;
 
 background-color:rgb(236, 207, 207) ;
 cursor: pointer;
+
+}
+.list{
+padding-left:0.1px ;
+
+
+
 
 }
