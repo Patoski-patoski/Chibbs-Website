@@ -1,0 +1,37 @@
+.con {
+
+    height: 60vh;
+    width: 100%;
+    background-image: url(imajes/edu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.content {
+    min-height: 90vw;
+    width: 100%;
+    background-color: rgb(104, 93, 93);
+    
+    
+}
+
+.coa {
+
+    
+   margin-top: 6% ;
+   padding-left: 1.5%;
+    text-align: left;
+}
+
+.help {
+
+    margin: 2% 0 0 2%;
+}
+
+
+.goodpics {
+
+    width: 100%;
+}
