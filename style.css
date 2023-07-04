@@ -1,5 +1,5 @@
 /* 
-Top-styling */
+Home-page */
 .con {
 
     height: 60vh;
@@ -12,109 +12,276 @@ Top-styling */
 
 
 .content {
-    min-height: 100vw;
+    min-height: 100vh;
     width: 100%;
-    
 }
 
 .coa {
-
-    
-   margin-top: 6% ;
-   padding-left: 1.5%;
+    margin-top: 6%;
+    padding-left: 1.5%;
     text-align: left;
+    /* width: 30%; */
+    background-color: white;
 }
 
 .help {
-
     margin: 2% 0 0 2%;
 }
 
 
 .goodpics {
-
     width: 100%;
 }
 
 
 /* buttom-styling */
-
-.coll{
-   
- padding-left: 4px; 
+.coll {
+    padding-left: 4px;
     display: flex;
 }
 
 .colll {
     width: 95%;
-    padding-left:2%;
- 
+    padding-left: 2%;
 }
 
-.flex-container{
+.flex-container {
     width: 100%;
     display: inline-flex;
     background-color: rgb(32, 28, 28);
+    gap: 4%;
 }
 
-.down-headings{
-color: white;
-
-}
-
-.list li{
-    list-style-type:none;
-    
-}
-
-.list li a{
-text-decoration: none;
-color: white;
+.down-headings {
+    color: white;
 
 }
 
-.list li a:hover{
-
-    color: blueviolet;
-}
-
-.row-flex{
-display: inline-flex;
-gap: 8px;
-
+.list li {
+    list-style-type: none;
 
 }
-.follow{
-display: block;
 
-  width: 100%;
+.list li a {
+    text-decoration: none;
+    color: white;
+
 }
 
-.ul-inline-block{
+ li a:hover {
+transform: translateY(-10px);
+    background-color:rgb(156, 131, 131);
+}
+
+.row-flex {
+    display: inline-flex;
+    gap: 8px;
+
+
+}
+
+.follow {
+    display: block;
+
+    width: 100%;
+}
+
+.ul-inline-block {
 
     display: inline-block;
 }
 
-.navbar-toggler:hover{
+.navbar-toggler:hover {
 
-background-color:white ;
-cursor: pointer;
-
-}
-
-
-
-.list{
-width: 55%;
+    background-color: rgb(156, 131, 131);
+    cursor: pointer;
 
 }
 
-.useful{
 
-    float: left;
-    margin-left: 25px;
+
+.nav-link:hover{
+
+font-size: 30px;
+} 
+
+
+
+.list {
+    width: 55%;
+
+
+}
+
+.useful {
+
+   
+    margin-left: 4%;
 }
 
 .listt {
-    width:40%;
+    width: 40%;
+}
+
+
+
+@media (min-width:500px) {
+
+    .coa {
+        width: 33%;
+    }
+
+    .coa-div {
+        display: inline-flex;
+flex-wrap: wrap;  }
+
+.para-div {
+    min-height: 18vh;
+
+}
+
+}
+
+
+@media(max-width:500px) {
+
+    .nav-item {
+    
+            width: 28%;
+            margin-left: 54%;
+            margin-top: -1%;
+    
+        }
+
+}
+
+
+@media(min-width:600px){
+
+.right{
+
+   margin-left: 50%;
+}
+
+.left{
+
+    margin-left: 8%;
+}
+
+
+
+}
+
+
+@media(max-width:600px) {
+
+.useful{
+
+    margin-left: 20%;
+}
+
+.row-flex{
+    margin-left: 6%;
+}
+}
+
+
+
+
+
+/* course styling */
+
+.nav-course{
+
+    width: 100%;
+}
+
+.co-list{
+min-height: 170vh;
+background-color:bisque;
+
+}
+
+
+.course-list{
+    min-height: 35vh;
+background-color:white;
+    border-top: 6px solid orangered;
+margin-left: 5%;
+width: 90%;
+
+
+}
+
+
+.course-buttom{
+display: block;
+    min-height: 26vh;
+background-color:black;
+}
+
+.connect{
+    text-align: center;
+}
+
+.us{
+    color:bisque;
+}
+
+.info{
+min-width: 30%;
+ display:inline-block;
+    margin-left: 2%;
+}
+
+.inf{
+    margin-top: 4%;
+}
+
+
+.info-item{
+    display: inline-block;
+}
+
+
+.phone-num{
+    color: beige;
+}
+
+
+.student{
+    display: inline-block;
+}
+
+
+
+.foll{
+display: inline-flex;
+
+}
+
+.anc{
+
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+
+.cao {
+    margin-top: 6%;
+    padding-left: 1.5%;
+    text-align: left;
+    /* width: 30%; */
+    background-color: white;
+    min-height: 20vh;
+}
+.aply{
+
+    margin-bottom:2% ;
+}
+
+.space{
+    margin-left: 2%;
 }
