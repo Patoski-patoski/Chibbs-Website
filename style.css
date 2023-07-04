@@ -197,7 +197,7 @@ flex-wrap: wrap;  }
 }
 
 .co-list{
-min-height: 170vh;
+min-height: 450vh;
 background-color:bisque;
 
 }
@@ -284,4 +284,22 @@ ul{
 
 .space{
     margin-left: 2%;
+}
+
+.orang{
+color:orangered;
+}
+
+
+.certificate{
+    color: rgb(20, 135, 150);
+}
+.courselist {
+    min-height: 35vh;
+    background-color: white;
+    border-top: 6px solid rgb(20, 135, 150);
+    margin-left: 5%;
+    width: 90%;
+
+
 }
