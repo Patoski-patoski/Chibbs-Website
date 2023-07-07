@@ -18,11 +18,18 @@ Home-page */
     justify-content: center;
 }
 
+.tayi {
+    width: 30vw;
 
-.ani{
+    margin: -9% 0 0 -16%;
+
+}
+
+.ani {
 
     color: orangered;
 }
+
 .coa-div {
     min-height: 80vh;
 
@@ -141,7 +148,7 @@ li a:hover {
 
     .coa {
         width: 33%;
-
+      
     }
 
     .content {
@@ -149,7 +156,6 @@ li a:hover {
 
 
     }
-
     .coa-div {
         display: inline-flex;
         flex-wrap: wrap;
@@ -219,10 +225,32 @@ li a:hover {
 }
 
 
+@media(min-width:160px) {
+
+    .tayi {
+        width: 30vw;
+
+        margin: -11% 0 0 -24%;
+
+    }
+
+
+}
 
 
 
-/* course styling */
+
+
+/* program styling */
+
+.con-program {
+    height: 30vh;
+    width: 100%;
+    background-image: url(imajes/programs-pics.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 .nav-course {
 
@@ -230,14 +258,14 @@ li a:hover {
 }
 
 .co-list {
-    min-height: 345vh;
-    background-color: rgb(230, 232, 239);
+    min-height: 200vh;
+    
 
 }
 
 
 .course-list {
-    min-height: 35vh;
+    min-height: 40vh;
     background-color: white;
     border-top: 6px solid orangered;
     margin-left: 5%;
@@ -246,10 +274,16 @@ li a:hover {
 
 }
 
+.course-content{
+
+background-color: rgb(230, 232, 239);;
+}
+
+
 
 .conectt {
     display: block;
-    min-height: 35vh;
+    min-height: 45vh;
     background-color: black;
 }
 
@@ -309,7 +343,7 @@ ul {
     text-align: left;
     /* width: 30%; */
     background-color: white;
-    min-height: 20vh;
+     min-height: 20vh; 
 }
 
 .aply {
@@ -346,23 +380,70 @@ ul {
 }
 
 
+.ramee {
+    text-align: center;
+    height: 12vh;
+    width: 22vw;
+    margin: 2% 0 2% 25%;
+}
+
+.iiyc{
+margin: 15% 0 0 0;
+
+
+}
+
+.ramee:hover{
+
+
+    background-color: #101011;
+}
+
+@media (min-width:800px) {
+
+   .course-list{
+
+height: 400px;
+
+   }
+
+.courselist {
+
+    height: 400px;
+
+}
+
+
+    }
+
+
+
+
+
+
 @media (min-width:500px) {
 
     .course-list {
         width: 42.5%;
-        height: 52vh;
+       min-height: 20%;
+   
     }
+    
+.aply {
+
+    margin-bottom: 2%;
+}
+
+
 
     .courselist {
-        width: 42.1%;
-        height: 52vh;
+        width: 42.5%;
+       
     }
 
     .co-list {
         display: inline-flex;
         flex-wrap: wrap;
-
-
     }
 
     .student {
@@ -400,22 +481,6 @@ ul {
 
 
 
-
-
-/* 
-     About styling */
-
-
-.about-content {
-    background-color: rgb(230, 232, 239);
-}
-
-/* 
-     .about{
-margin-top
-
-     }
- */
 
 
 
@@ -710,7 +775,7 @@ msg-header-img {
 
 
 
-    
+
     .aicons {
         margin-left: 8%;
     }
@@ -762,28 +827,111 @@ msg-header-img {
 
 
 
-   @media(min-width:700px) {
+@media(min-width:700px) {
 
 
     .bae {
-            position: absolute;
-            margin: 3.2% 0 0 0.4%;
-        }
+        position: absolute;
+        margin: 3.2% 0 0 0.4%;
+    }
 
-       .icon {
+    .icon {
 
-           margin: 1.5% 44% 0 36%;
+        margin: 1.5% 44% 0 36%;
 
-       }
+    }
 
-       .icon2{
+    .icon2 {
 
         position: absolute;
 
-margin: 3.8%  44.2%;
-       }
+        margin: 3.8% 44.2%;
+    }
 
-   }
+}
 
 
 
+
+
+
+
+/* 
+   About styling */
+
+
+.our {
+    border: 0px;
+}
+
+
+.con-about {
+    height: 20vh;
+    width: 100%;
+    background-image: url(imajes/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.mvv {
+
+
+    width: 90%;
+}
+
+
+
+.mvi {
+    width: 100%;
+    margin-right: 40px;
+}
+
+
+.move {
+
+    margin: 0 0 0 4%;
+}
+
+
+.bb {
+    width: 120%;
+    border: 1px solid rgb(195, 0, 255);
+}
+
+.flexcontainer {
+    width: 120%;
+    display: inline-flex;
+    background-color: rgb(32, 28, 28);
+    gap: 4%;
+
+}
+
+ 
+.iiy{
+margin-top: 4%;
+}
+
+.ddb{
+    height: 5vh;
+}
+
+.rightt {
+
+    margin-left: 12%;
+}
+
+ .rame {
+    text-align: center;
+   height: 20vh;
+    width: 40vw;
+    margin: 2% 0 0 0;
+} 
+
+.rame:hover{
+
+background-color: #007bff;
+
+}
