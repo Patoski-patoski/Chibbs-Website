@@ -373,7 +373,11 @@ ul {
 
 }
 
+.topii{
 
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
 
 /* 
 .cao {
@@ -1623,7 +1627,10 @@ msg-header-img {
 
 
 
-
+.topi{
+    width: 20vw;
+    height: 4vh;
+}
 
 
 
