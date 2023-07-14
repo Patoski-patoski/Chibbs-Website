@@ -1747,7 +1747,7 @@ msg-header-img {
 }
 
 .flexcontainer {
-    width: 120%;
+    width: 100%;
     display: inline-flex;
     background-color: rgb(32, 28, 28);
     gap: 4%;
@@ -1834,6 +1834,7 @@ msg-header-img {
 
     width: 60vw;
     margin-left: 9%;
+  
 }
 
 .seful {
