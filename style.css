@@ -1331,6 +1331,7 @@ ul {
 
 .t .conna {
     background-color: #ccc;
+    
 }
 
 /* 
@@ -1551,8 +1552,9 @@ msg-header-img {
     .conna {
 
 
-        width: 60%;
+        width: 30%;
         margin: 0 20%;
+        background-color: #76ade7;
 
     }
 
@@ -1595,7 +1597,7 @@ msg-header-img {
 
 
 
-@media(min-width:1070px) {
+@media(min-width:900px) {
 
 
     .conna {
@@ -1605,16 +1607,11 @@ msg-header-img {
         margin: 0 20%;
 
         .icon {
-
-            margin: -1.1% 43% 0 46%;
-
+            margin: 1.5% 43% 0 41%;
         }
 
 
     }
-
-
-
 
 
 
@@ -1629,7 +1626,60 @@ msg-header-img {
 
     }
 
+
+
+    .iconn{
+position: absolute;
+margin: 3.5% 0 0 45%;
+
+    }
+
 }
+
+
+@media(min-width:1000px) {
+
+
+    .conna {
+
+
+        width: 60%;
+        margin: 0 20%;
+
+        .icon {
+            margin: 1% 43% 0 41%;
+        }
+
+
+    }
+
+
+
+    .aicons {
+        margin-left: 8%;
+    }
+
+
+    .bicons {
+
+        margin: 0 0 0 4%;
+
+    }
+
+
+
+    .iconn {
+        position: absolute;
+        margin: 2.5% 0 0 44.8%;
+
+    }
+
+}
+
+
+
+
+
 
 
 
@@ -1830,11 +1880,8 @@ msg-header-img {
 }
 
 .clist {
-
-
     width: 60vw;
     margin-left: 9%;
-  
 }
 
 .seful {
@@ -1961,7 +2008,15 @@ msg-header-img {
 
     }
 
+.flexcontainer {
+    width: 100%;
+    display: inline-flex;
+    background-color: rgb(32, 28, 28);
+    gap: 4%;
+    position: relative;
+    min-height: 30vh;
 
+}
 
 }
 
@@ -1996,6 +2051,7 @@ msg-header-img {
 
     .flexcontainer {
         min-height: 40vh;
+
     }
 
 }
