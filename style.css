@@ -315,11 +315,12 @@ li a:hover {
         font-style: oblique;
         font-size: xx-large;
     }
-.pim{
 
-margin-left: 10%;
+    .pim {
 
-}
+        margin-left: 10%;
+
+    }
 }
 
 
@@ -1331,7 +1332,7 @@ ul {
 
 .t .conna {
     background-color: #ccc;
-    
+
 }
 
 /* 
@@ -1628,9 +1629,9 @@ msg-header-img {
 
 
 
-    .iconn{
-position: absolute;
-margin: 3.5% 0 0 45%;
+    .iconn {
+        position: absolute;
+        margin: 3.5% 0 0 45%;
 
     }
 
@@ -1880,8 +1881,8 @@ margin: 3.5% 0 0 45%;
 }
 
 .clist {
-    width: 100%;
-    margin-left: 9%;
+    margin-left: 5%;
+
 }
 
 .seful {
@@ -2003,20 +2004,27 @@ margin: 3.5% 0 0 45%;
 
     .clist {
         position: relative;
-        width: 70vw;
-        margin-left: -10%;
+
+
 
     }
 
-.flexcontainer {
-    width: 100%;
-    display: inline-flex;
-    background-color: rgb(32, 28, 28);
-    gap: 4%;
-    position: relative;
-    min-height: 30vh;
+    .flexcontainer {
+        width: 100%;
+        display: inline-flex;
+        background-color: rgb(32, 28, 28);
+        gap: 4%;
+        position: relative;
+        min-height: 30vh;
 
-}
+    }
+
+
+        .topi {
+            width: 25vw;
+            height: 6vh;
+    margin: 0 0 0 -20%;
+        }
 
 }
 
@@ -2026,7 +2034,7 @@ margin: 3.5% 0 0 45%;
 
 
     .rame {
-        margin: 30% 0 0 3%;
+        margin: 18% 0 0 3%;
 
     }
 
@@ -2045,13 +2053,20 @@ margin: 3.5% 0 0 45%;
     .clist {
         position: relative;
         width: 60vw;
-        margin-left: -10%;
+        margin-left: -4%;
 
     }
 
     .flexcontainer {
+        width: 100%;
         min-height: 40vh;
 
     }
 
+    .topi {
+        width: 25vw;
+height: 7vh;
+margin: 0 0 0 -10%;
+
+    }
 }
