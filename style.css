@@ -1,265 +1,264 @@
-/* 
-Home-page */
-.con {
+    /* Web Home-page */
+    .con {
 
-    height: 60vh;
-    width: 100%;
-    background-image: url(imajes/edu.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-
-.content {
-    min-height: 60vh;
-    width: 100%;
-    background-color: rgb(230, 232, 239);
-    justify-content: center;
-}
-
-.ani {
-
-    color: orangered;
-}
-
-.coa-div {
-    min-height: 80vh;
-
-}
-
-.coa {
-    margin-top: 6%;
-    padding-left: 1.5%;
-    text-align: left;
-    /* width: 30%; */
-    background-color: white;
-}
-
-.help {
-    margin: 2% 0 0 2%;
-}
-
-
-.goodpics {
-    width: 100%;
-}
-
-
-/* buttom-styling */
-.coll {
-    padding-left: 4px;
-    display: flex;
-}
-
-.colll {
-    width: 95%;
-    padding-left: 2%;
-}
-
-.flex-container {
-    width: 100%;
-    display: inline-flex;
-    background-color: rgb(32, 28, 28);
-    gap: 4%;
-}
-
-.down-headings {
-    color: white;
-
-}
-
-.list li {
-    list-style-type: none;
-
-}
-
-.list li a {
-    text-decoration: none;
-    color: white;
-
-}
-
-li a:hover {
-    transform: translateY(-10px);
-    /* background-color:rgb(156, 131, 131); */
-}
-
-.row-flex {
-    display: inline-flex;
-    gap: 8px;
-
-
-}
-
-.follow {
-    display: block;
-
-    width: 100%;
-}
-
-.ul-inline-block {
-
-    display: inline-block;
-}
-
-.navbar-toggler:hover {
-
-    background-color: rgb(156, 131, 131);
-    cursor: pointer;
-
-}
-
-
-
-.nav-link:hover {
-
-    font-size: 30px;
-}
-
-
-
-.list {
-    width: 55%;
-
-
-}
-
-.useful {
-
-
-    margin-left: 4%;
-}
-
-.listt {
-    width: 40%;
-}
-
-
-
-@media (min-width:500px) {
-
-    .coa {
-        width: 33%;
-
+        height: 60vh;
+        width: 100%;
+        background-image: url(imajes/edu.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 
+
     .content {
-        min-height: 120vh;
+        min-height: 60vh;
+        width: 100%;
+        background-color: rgb(230, 232, 239);
+        justify-content: center;
+    }
 
+    .ani {
 
+        color: orangered;
     }
 
     .coa-div {
+        min-height: 80vh;
+
+    }
+
+    .coa {
+        margin-top: 6%;
+        padding-left: 1.5%;
+        text-align: left;
+        /* width: 30%; */
+        background-color: white;
+    }
+
+    .help {
+        margin: 2% 0 0 2%;
+    }
+
+
+    .goodpics {
+        width: 100%;
+    }
+
+
+    /* buttom-styling */
+    .coll {
+        padding-left: 4px;
+        display: flex;
+    }
+
+    .colll {
+        width: 95%;
+        padding-left: 2%;
+    }
+
+    .flex-container {
+        width: 100%;
         display: inline-flex;
-        flex-wrap: wrap;
-        min-height: 50vh;
-        width: 90%;
-        margin-left: 4.8%;
+        background-color: rgb(32, 28, 28);
+        gap: 4%;
+    }
+
+    .down-headings {
+        color: white;
 
     }
 
-    .para-div {
-        min-height: 18vh;
+    .list li {
+        list-style-type: none;
 
     }
 
-
-}
-
-
-@media(max-width:500px) {
-
-    .nav-item {
-
-        width: 30%;
-        margin-left: 52%;
-        margin-top: -1%;
+    .list li a {
+        text-decoration: none;
+        color: white;
 
     }
 
-    .ulist:hover {
-        border-radius: 2%;
-
-        background-color: rgba(131, 47, 209, 0.4);
-
-        transition: background 1.3s;
-
-    }
-
-}
-
-
-@media(min-width:500px) {
-
-
-    .ulist:hover {
-        border-radius: 2%;
-
-        background-color: rgba(131, 47, 209, 0.4);
-
-        transition: background 1s;
-
-    }
-
-}
-
-
-
-
-
-
-
-
-
-@media(min-width:600px) {
-
-    .right {
-
-        margin-left: 50%;
-    }
-
-    .left {
-
-        margin-left: 8%;
-    }
-
-
-
-}
-
-
-@media(max-width:600px) {
-
-    .useful {
-
-        margin-left: 20%;
+    li a:hover {
+        transform: translateY(-10px);
+        /* background-color:rgb(156, 131, 131); */
     }
 
     .row-flex {
-        margin-left: 6%;
-    }
-}
+        display: inline-flex;
+        gap: 8px;
 
-
-@media(min-width:160px) {
-
-    .tayi {
-        width: 30vw;
-
-        margin: -11% 0 0 -24%;
 
     }
 
+    .follow {
+        display: block;
 
-}
+        width: 100%;
+    }
+
+    .ul-inline-block {
+
+        display: inline-block;
+    }
+
+    .navbar-toggler:hover {
+
+        background-color: rgb(156, 131, 131);
+        cursor: pointer;
+
+    }
+
+
+
+    .nav-link:hover {
+
+        font-size: 30px;
+    }
+
+
+
+    .list {
+        width: 55%;
+
+
+    }
+
+    .useful {
+
+
+        margin-left: 4%;
+    }
+
+    .listt {
+        width: 40%;
+    }
+
+
+
+    @media (min-width:500px) {
+
+        .coa {
+            width: 33%;
+
+        }
+
+        .content {
+            min-height: 120vh;
+
+
+        }
+
+        .coa-div {
+            display: inline-flex;
+            flex-wrap: wrap;
+            min-height: 50vh;
+            width: 90%;
+            margin-left: 4.8%;
+
+        }
+
+        .para-div {
+            min-height: 18vh;
+
+        }
+
+
+    }
+
+
+    @media(max-width:500px) {
+
+        .nav-item {
+
+            width: 30%;
+            margin-left: 52%;
+            margin-top: -1%;
+
+        }
+
+        .ulist:hover {
+            border-radius: 2%;
+
+            background-color: rgba(131, 47, 209, 0.4);
+
+            transition: background 1.3s;
+
+        }
+
+    }
+
+
+    @media(min-width:500px) {
+
+
+        .ulist:hover {
+            border-radius: 2%;
+
+            background-color: rgba(131, 47, 209, 0.4);
+
+            transition: background 1s;
+
+        }
+
+    }
 
 
 
 
 
-/* Teacher_Student_container Styling */
-/* 
+
+
+
+
+    @media(min-width:600px) {
+
+        .right {
+
+            margin-left: 50%;
+        }
+
+        .left {
+
+            margin-left: 8%;
+        }
+
+
+
+    }
+
+
+    @media(max-width:600px) {
+
+        .useful {
+
+            margin-left: 20%;
+        }
+
+        .row-flex {
+            margin-left: 6%;
+        }
+    }
+
+
+    @media(min-width:160px) {
+
+        .tayi {
+            width: 30vw;
+
+            margin: -11% 0 0 -24%;
+
+        }
+
+
+    }
+
+
+
+
+
+    /* Teacher_Student_container Styling */
+    /* 
 .teacher_Student_container{
     height: 110vh;
     background-image: url(imajes/teacher_Student.jpg);
@@ -268,7 +267,7 @@ li a:hover {
 } */
 
 
-/* 
+    /* 
 .interact{
 
     position: absolute;
@@ -280,174 +279,180 @@ li a:hover {
 
 
 
-.con-teach {
+    .con-teach {
 
-    height: 100vh;
-    width: 100%;
-    background-image: url(imajes/Teach.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+        height: 100vh;
+        width: 100%;
+        background-image: url(imajes/Teach.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
 
-}
+    }
 
-
-.interact {
-    color: #121244;
-    position: absolute;
-    margin: 5% 0 0 8%;
-    font-style: oblique;
-    font-size: xx-large;
-}
-
-.toggler-ddent {
-    margin: 0 0 0 85%;
-}
-
-
-
-@media(min-width:450px) {
 
     .interact {
         color: #121244;
         position: absolute;
-        margin: 20% 0 0 20%;
+        margin: 5% 0 0 8%;
         font-style: oblique;
         font-size: xx-large;
     }
 
-    .pim {
+    .toggler-ddent {
+        margin: 0 0 0 85%;
+    }
+.ilist{
 
-        margin-left: 10%;
+width: 53vw;
+margin: -20% 0 0 -120%;
+
+
+}
+
+
+    @media(min-width:450px) {
+
+        .interact {
+            color: #121244;
+            position: absolute;
+            margin: 20% 0 0 20%;
+            font-style: oblique;
+            font-size: xx-large;
+        }
+
+        .pim {
+
+            margin-left: 10%;
+
+        }
+    }
+
+
+
+
+    /* program styling */
+
+    .con-program {
+        height: 30vh;
+        width: 100%;
+        background-image: url(imajes/programs-pics.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .nav-course {
+
+        width: 100%;
+    }
+
+    .co-list {
+        min-height: 200vh;
+
 
     }
-}
+
+
+    .course-list {
+        background-color: white;
+        border-top: 6px solid orangered;
+        margin-left: -1%;
+        width: 95vw;
+        margin-top: 6%;
+        padding-left: 1%;
+        text-align: left;
+        /* width: 30%; */
+        background-color: white;
+        min-height: 20vh;
+
+    }
+
+    .space {
+        padding: 0 0 0 1%;
+    }
+
+    .course-content {
+
+        background-color: rgb(230, 232, 239);
+
+    }
 
 
 
+    .conectt {
 
-/* program styling */
+        min-height: 45vh;
+        background-color: black;
+        width: 104%;
+        margin-left: -2%;
+    }
 
-.con-program {
-    height: 30vh;
-    width: 100%;
-    background-image: url(imajes/programs-pics.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+    .connect {
+        text-align: center;
+    }
 
-.nav-course {
+    .us {
+        color: bisque;
+    }
 
-    width: 100%;
-}
+    .info {
+        min-width: 30%;
+        display: inline-block;
+        margin-left: 2%;
+    }
 
-.co-list {
-    min-height: 200vh;
-
-
-}
-
-
-.course-list {
-    background-color: white;
-    border-top: 6px solid orangered;
-    margin-left: -1%;
-    width: 95vw;
-    margin-top: 6%;
-    padding-left: 1%;
-    text-align: left;
-    /* width: 30%; */
-    background-color: white;
-    min-height: 20vh;
-
-}
-
-.space {
-    padding: 0 0 0 1%;
-}
-
-.course-content {
-
-    background-color: rgb(230, 232, 239);
-
-}
+    .inf {
+        margin-top: 4%;
+    }
 
 
-
-.conectt {
-
-    min-height: 45vh;
-    background-color: black;
-    width: 104%;
-    margin-left: -2%;
-}
-
-.connect {
-    text-align: center;
-}
-
-.us {
-    color: bisque;
-}
-
-.info {
-    min-width: 30%;
-    display: inline-block;
-    margin-left: 2%;
-}
-
-.inf {
-    margin-top: 4%;
-}
+    .info-item {
+        display: inline-block;
+    }
 
 
-.info-item {
-    display: inline-block;
-}
+    .phone-num {
+        color: beige;
+    }
 
 
-.phone-num {
-    color: beige;
-}
+    .ssp {
+        display: inline-block;
+    }
 
 
-.ssp {
-    display: inline-block;
-}
+    .foll {
+        display: inline-flex;
+
+    }
 
 
-.foll {
-    display: inline-flex;
+    .anc {
 
-}
-
-
-.anc {
-
-    text-decoration: none;
-    color: #d6b7b7;
-}
+        text-decoration: none;
+        color: #d6b7b7;
+    }
 
 
-.anc:hover {
+    .anc:hover {
 
-    color: #225d9c;
+        color: #225d9c;
 
-}
+    }
 
-ul {
-    list-style-type: none;
+    ul {
+        list-style-type: none;
 
-}
+    }
 
-.topii {
+    .topii {
 
-    margin-left: 10%;
-    margin-bottom: 3%;
-}
+        margin-left: 10%;
+        margin-bottom: 3%;
+    }
 
-/* 
+    /* 
 .cao {
     margin-top: 6%;
     padding-left: 1.5%;
@@ -456,79 +461,79 @@ ul {
     background-color: white;
     min-height: 42vh;
 } */
-/* 
+    /* 
 .aply {
     /* 
     margin-top: 30%; */
 
 
-.jjj {
-    margin-top: 20vh;
-}
+    .jjj {
+        margin-top: 20vh;
+    }
 
-.space {
-    margin-left: 2%;
-    position: relative;
-    margin-top: 30%;
-}
+    .space {
+        margin-left: 2%;
+        position: relative;
+        margin-top: 30%;
+    }
 
-.ap {
-    position: absolute;
-    width: 94.5vw;
-    margin-top: -2%;
-}
+    .ap {
+        position: absolute;
+        width: 94.5vw;
+        margin-top: -2%;
+    }
 
-.spac2 {
+    .spac2 {
 
-    position: absolute;
-}
+        position: absolute;
+    }
 
-.ona {
+    .ona {
 
-    position: absolute;
+        position: absolute;
 
-}
+    }
 
-.map {
-    margin-left: 32%;
-}
+    .map {
+        margin-left: 32%;
+    }
 
-.orang {
-    color: orangered;
-}
-
-
-.certificate {
-    color: rgb(20, 135, 150);
-}
-
-.courselist {
-    min-height: 35vh;
-    background-color: white;
-    border-top: 6px solid rgb(20, 135, 150);
-    margin-left: 5%;
-    width: 90%;
-}
+    .orang {
+        color: orangered;
+    }
 
 
-.ramee {
-    text-align: center;
-    height: 12vh;
-    width: 22vw;
-    margin: 2% 0 2% 25%;
-}
+    .certificate {
+        color: rgb(20, 135, 150);
+    }
 
-.iiyc {
-    margin: 15% 0 0 0;
+    .courselist {
+        min-height: 35vh;
+        background-color: white;
+        border-top: 6px solid rgb(20, 135, 150);
+        margin-left: 5%;
+        width: 90%;
+    }
 
 
-}
+    .ramee {
+        text-align: center;
+        height: 12vh;
+        width: 22vw;
+        margin: 2% 0 2% 25%;
+    }
 
-.ramee:hover {
-    background-color: #101011;
-}
+    .iiyc {
+        margin: 15% 0 0 0;
 
-/* 
+
+    }
+
+    .ramee:hover {
+        background-color: #101011;
+    }
+
+    /* 
 
 @media (min-width:676px) {
 
@@ -635,190 +640,191 @@ ul {
 
 
 
-/* For small phones */
-@media (max-width:459px) {
-
-    .course-list {
-        width: 94vw;
-        background-color: white;
-        border-top: 6px solid orangered;
-        text-align: left;
-        margin: 6% 0 0 0%;
-        margin-top: 6%;
-
-        text-align: left;
-
-        background-color: white;
-        min-height: 58vh;
-    }
+    /* For small phones */
+    @media (max-width:459px) {
 
+        .course-list {
+            width: 94vw;
+            background-color: white;
+            border-top: 6px solid orangered;
+            text-align: left;
+            margin: 6% 0 0 0%;
+            margin-top: 6%;
 
-    .aply {
-        margin-top: 1%;
-    }
+            text-align: left;
 
-    .ap {
-        position: absolute;
-        width: 93vw;
-        margin-top: 8%;
-    }
+            background-color: white;
+            min-height: 58vh;
+        }
 
-    .space {
-        margin-left: 1%;
-        position: relative;
-        margin-top: 34%;
-    }
 
+        .aply {
+            margin-top: 1%;
+        }
 
-    .conectt {
-        display: block;
-        min-height: 54vh;
-        background-color: black;
-        width: 110%;
-        margin-left: -4%;
+        .ap {
+            position: absolute;
+            width: 93vw;
+            margin-top: 8%;
+        }
 
-    }
+        .space {
+            margin-left: 1%;
+            position: relative;
+            margin-top: 34%;
+        }
 
-    .student {
-        margin-left: 4%;
 
-    }
+        .conectt {
+            display: block;
+            min-height: 54vh;
+            background-color: black;
+            width: 110%;
+            margin-left: -4%;
 
-    .stu {
+        }
 
-        margin-right: 6%;
-    }
+        .student {
+            margin-left: 4%;
 
-    .ramee {
-        margin-left: 8%;
-        margin-top: -10%;
-        width: 40vw;
-        height: 20vh;
-    }
+        }
 
-    .tayi {
-        width: 30vw;
+        .stu {
 
-        margin: -1% 0 0 -2%;
+            margin-right: 6%;
+        }
 
-    }
+        .ramee {
+            margin-left: 8%;
+            margin-top: -10%;
+            width: 40vw;
+            height: 20vh;
+        }
 
+        .tayi {
+            width: 30vw;
 
-}
+            margin: -1% 0 0 -2%;
 
+        }
 
-/* Big Small Phone */
-@media (min-width:360px) {
 
-    .course-list {
-        width: 94vw;
-        background-color: white;
-        border-top: 6px solid orangered;
-        text-align: left;
-        margin: 6% 0 0 0%;
-        margin-top: 6%;
+    }
 
-        text-align: left;
 
-        background-color: white;
-        min-height: 52vh;
-    }
+    /* Big Small Phone */
+    @media (min-width:360px) {
 
+        .course-list {
+            width: 94vw;
+            background-color: white;
+            border-top: 6px solid orangered;
+            text-align: left;
+            margin: 6% 0 0 0%;
+            margin-top: 6%;
 
+            text-align: left;
 
-    .aply {
-        margin-top: 5%;
-    }
+            background-color: white;
+            min-height: 52vh;
+        }
 
-    .conectt {
-        display: block;
-        min-height: 42vh;
-        background-color: black;
-        width: 110%;
-        margin-left: -4%;
 
-    }
 
+        .aply {
+            margin-top: 5%;
+        }
 
-    .ramee {
-        margin-left: 10%;
-        margin-top: -4%;
-        width: 40vw;
-        height: 16vh;
-    }
+        .conectt {
+            display: block;
+            min-height: 42vh;
+            background-color: black;
+            width: 110%;
+            margin-left: -4%;
+
+        }
+
 
+        .ramee {
+            margin-left: 10%;
+            margin-top: -4%;
+            width: 40vw;
+            height: 16vh;
+        }
 
-    .tayi {
-        width: 30vw;
 
-        margin: 3% 0 0 -2%;
+        .tayi {
+            width: 30vw;
 
+            margin: 3% 0 0 -2%;
+
+        }
+
     }
 
-}
 
 
 
+    /* Apple Wrist watch */
+    @media (max-width:200px) {
 
-/* Apple Wrist watch */
-@media (max-width:200px) {
+        .course-list {
+            width: 89vw;
+            background-color: white;
+            border-top: 6px solid orangered;
+            text-align: left;
+            margin: 6% 0 0 0%;
+            margin-top: 6%;
 
-    .course-list {
-        width: 89vw;
-        background-color: white;
-        border-top: 6px solid orangered;
-        text-align: left;
-        margin: 6% 0 0 0%;
-        margin-top: 6%;
+            text-align: left;
 
-        text-align: left;
+            background-color: white;
+            min-height: 350vh;
 
-        background-color: white;
-        min-height: 350vh;
+        }
 
-    }
 
+        .aply {
+            margin-top: 5%;
+        }
 
-    .aply {
-        margin-top: 5%;
-    }
+        .ap {
+            position: absolute;
+            width: 93vw;
+            margin-top: 200%;
+        }
 
-    .ap {
-        position: absolute;
-        width: 93vw;
-        margin-top: 200%;
-    }
+        .space {
+            margin-left: 1%;
+            position: relative;
+            margin-top: 110%;
+        }
 
-    .space {
-        margin-left: 1%;
-        position: relative;
-        margin-top: 110%;
-    }
 
+        .conectt {
+            display: block;
+            min-height: 300vh;
+            background-color: black;
+            width: 130%;
+            margin-left: -4%;
 
-    .conectt {
-        display: block;
-        min-height: 300vh;
-        background-color: black;
-        width: 130%;
-        margin-left: -4%;
+        }
 
-    }
 
 
+        .foll {
+            text-align: center;
+            display: block;
+        }
 
-    .foll {
-        text-align: center;
-        display: block;
-    }
+        .uss {
+            display: block;
+        }
 
-    .uss {
-        display: block;
-    }
 
 
+    }
 
-}
 
 
 
@@ -827,144 +833,144 @@ ul {
 
 
 
+    /* Medium Screen */
+    @media (min-width:429px) {
 
-/* Medium Screen */
-@media (min-width:429px) {
+        .co-list {
+            display: inline-flex;
+            gap: 25px;
+            margin-left: 2%;
+        }
 
-    .co-list {
-        display: inline-flex;
-        gap: 25px;
-        margin-left: 2%;
-    }
+        .course-list {
+            height: 58vh;
+            width: 88vw;
+            margin: 0 0 0 1.5%;
+        }
 
-    .course-list {
-        height: 58vh;
-        width: 88vw;
-        margin: 0 0 0 1.5%;
-    }
+        .space {
+            margin-left: 2%;
+            position: relative;
+            margin-top: 18%;
+            width: 70vw;
+        }
 
-    .space {
-        margin-left: 2%;
-        position: relative;
-        margin-top: 18%;
-        width: 70vw;
-    }
+        .ap {
+            position: absolute;
+            width: 88vw;
+            margin: 10% 0 0 -1%;
+        }
 
-    .ap {
-        position: absolute;
-        width: 88vw;
-        margin: 10% 0 0 -1%;
-    }
+        .aply {
+            margin: 0% 0 0 4%;
+        }
 
-    .aply {
-        margin: 0% 0 0 4%;
-    }
+        .foll {
+            display: inline-flex;
+            margin-right: -20%;
 
-    .foll {
-        display: inline-flex;
-        margin-right: -20%;
+        }
 
-    }
+        .student {
+            display: inline-flex;
+        }
 
-    .student {
-        display: inline-flex;
-    }
+        .stu {
+            margin: 0 -50% 0 0;
 
-    .stu {
-        margin: 0 -50% 0 0;
+        }
 
-    }
+        .uiii {
 
-    .uiii {
+            margin-left: 90%;
 
-        margin-left: 90%;
+        }
 
-    }
+        .ramee {
+            margin-left: 234%;
+            margin: -72% 0 0 10%;
+            width: 26vw;
+            height: 24vh;
+        }
 
-    .ramee {
-        margin-left: 234%;
-        margin: -72% 0 0 10%;
-        width: 26vw;
-        height: 24vh;
-    }
+        .iiyc {
+            width: 18vw;
+            height: 18vh;
+            margin-top: 10%;
+        }
 
-    .iiyc {
-        width: 18vw;
-        height: 18vh;
-        margin-top: 10%;
-    }
 
+        .connect {
+            margin-left: -4%;
+            height: 10vh;
+        }
 
-    .connect {
-        margin-left: -4%;
-        height: 10vh;
-    }
+        .dh {
+            margin-left: -5%;
+        }
 
-    .dh {
-        margin-left: -5%;
-    }
+        .uss {
+            margin-left: 2%;
 
-    .uss {
-        margin-left: 2%;
+        }
 
-    }
+        .foll {
+            display: block;
+        }
 
-    .foll {
-        display: block;
-    }
+        .stuu {
+            margin: 0 0 0 25%;
 
-    .stuu {
-        margin: 0 0 0 25%;
+        }
 
-    }
+        .conectt {
 
-    .conectt {
+            font-size: medium;
+        }
 
-        font-size: medium;
-    }
+        .conectt {
 
-    .conectt {
+            min-height: 50vh;
+            background-color: black;
+        }
 
-        min-height: 50vh;
-        background-color: black;
-    }
+        .cop {
 
-    .cop {
+            margin-left: 5.5%;
+            margin-top: 3%;
+            width: 18vw;
+            height: 40vh;
+        }
 
-        margin-left: 5.5%;
-        margin-top: 3%;
-        width: 18vw;
-        height: 40vh;
-    }
 
+        .tayi {
 
-    .tayi {
+            width: 30vw;
+            margin: -14% 0 0 -15%;
+        }
 
-        width: 30vw;
-        margin: -14% 0 0 -15%;
-    }
 
+        .ctss {
 
-    .ctss {
+            margin-left: 6%;
+        }
 
-        margin-left: 6%;
-    }
 
 
 
+        .ulist {
 
-    .ulist {
+            margin: -24% 0 0 60%;
 
-        margin: -24% 0 0 60%;
+        }
 
-    }
+        .con-program {
 
-    .con-program {
+            height: 60vh;
+        }
 
-        height: 60vh;
     }
 
-}
 
 
 
@@ -990,271 +996,270 @@ ul {
 
 
 
+    /* Bigger screen Size */
+    @media (min-width:767px) {
 
-/* Bigger screen Size */
-@media (min-width:767px) {
 
+        .co-list {
+            display: inline-flex;
+            gap: 25px;
+            margin-left: 2%;
+        }
 
-    .co-list {
-        display: inline-flex;
-        gap: 25px;
-        margin-left: 2%;
-    }
+        .course-list {
 
-    .course-list {
+            height: 52vh;
+            width: 45vw;
+            margin-left: 0.4%;
+        }
 
-        height: 52vh;
-        width: 45vw;
-        margin-left: 0.4%;
-    }
+        .space {
+            margin-left: 2%;
+            position: relative;
+            margin-top: 26%;
+            width: 40vw;
+        }
 
-    .space {
-        margin-left: 2%;
-        position: relative;
-        margin-top: 26%;
-        width: 40vw;
-    }
+        .ap {
+            position: absolute;
+            width: 45vw;
+            margin: -2% 0 0 -1%;
+        }
 
-    .ap {
-        position: absolute;
-        width: 45vw;
-        margin: -2% 0 0 -1%;
-    }
+        .aply {
+            margin: 5% 0 0 4%;
+        }
 
-    .aply {
-        margin: 5% 0 0 4%;
-    }
+        .foll {
+            display: inline-flex;
+            margin-right: -20%;
 
-    .foll {
-        display: inline-flex;
-        margin-right: -20%;
+        }
 
-    }
+        .student {
+            display: inline-flex;
+        }
 
-    .student {
-        display: inline-flex;
-    }
+        .stu {
+            margin: 0 -50% 0 0;
 
-    .stu {
-        margin: 0 -50% 0 0;
+        }
 
-    }
+        .uiii {
 
-    .uiii {
+            margin-left: 90%;
 
-        margin-left: 90%;
+        }
 
-    }
+        .ramee {
+            margin-left: 234%;
+            margin-top: -42%;
+            width: 26vw;
+            height: 28vh;
+        }
 
-    .ramee {
-        margin-left: 234%;
-        margin-top: -42%;
-        width: 26vw;
-        height: 28vh;
-    }
+        .iiyc {
+            width: 18vw;
+            height: 18vh;
+            margin-top: 10%;
+        }
 
-    .iiyc {
-        width: 18vw;
-        height: 18vh;
-        margin-top: 10%;
-    }
 
+        .connect {
+            margin-left: -4%;
+            height: 10vh;
+        }
 
-    .connect {
-        margin-left: -4%;
-        height: 10vh;
-    }
+        .dh {
+            margin-left: -5%;
+        }
 
-    .dh {
-        margin-left: -5%;
-    }
+        .uss {
+            margin-left: 2%;
 
-    .uss {
-        margin-left: 2%;
+        }
 
-    }
 
 
+        .conectt {
 
-    .conectt {
+            font-size: medium;
+        }
 
-        font-size: medium;
-    }
+        .conectt {
 
-    .conectt {
+            min-height: 50vh;
+            background-color: black;
+        }
 
-        min-height: 50vh;
-        background-color: black;
-    }
+        .cop {
 
-    .cop {
+            margin-left: 5.5%;
+            margin-top: 3%;
+            width: 18vw;
+            height: 40vh;
+        }
 
-        margin-left: 5.5%;
-        margin-top: 3%;
-        width: 18vw;
-        height: 40vh;
-    }
 
+        .tayi {
 
-    .tayi {
+            width: 20vw;
+        }
 
-        width: 20vw;
-    }
 
+        .ctss {
+            margin-left: 6%;
+        }
 
-    .ctss {
-        margin-left: 6%;
-    }
 
 
 
+        .ulist {
+            margin: -24% 0 0 60%;
+        }
 
-    .ulist {
-        margin: -24% 0 0 60%;
-    }
+        .con-program {
+            height: 60vh;
+        }
 
-    .con-program {
-        height: 60vh;
     }
 
-}
 
 
 
 
 
+    /* X-Bigger screen Size */
+    @media (min-width:1115px) {
 
-/* X-Bigger screen Size */
-@media (min-width:1115px) {
 
+        .co-list {
+            display: inline-flex;
+            gap: 25px;
+            margin-left: 2%;
+        }
 
-    .co-list {
-        display: inline-flex;
-        gap: 25px;
-        margin-left: 2%;
-    }
+        .course-list {
 
-    .course-list {
+            height: 60vh;
+            width: 45vw;
+            margin-left: 0.4%;
+        }
 
-        height: 60vh;
-        width: 45vw;
-        margin-left: 0.4%;
-    }
+        .space {
+            margin-left: 2%;
+            position: relative;
+            margin-top: 26%;
+            width: 40vw;
+        }
 
-    .space {
-        margin-left: 2%;
-        position: relative;
-        margin-top: 26%;
-        width: 40vw;
-    }
+        .ap {
+            position: absolute;
+            width: 45vw;
+            margin: -2% 0 0 -1%;
+        }
 
-    .ap {
-        position: absolute;
-        width: 45vw;
-        margin: -2% 0 0 -1%;
-    }
+        .aply {
+            margin: 5% 0 0 4%;
+        }
 
-    .aply {
-        margin: 5% 0 0 4%;
-    }
+        .foll {
+            display: inline-flex;
+            margin-right: -20%;
 
-    .foll {
-        display: inline-flex;
-        margin-right: -20%;
+        }
 
-    }
+        .student {
+            display: inline-flex;
+        }
 
-    .student {
-        display: inline-flex;
-    }
+        .stu {
+            margin: 0 -50% 0 0;
 
-    .stu {
-        margin: 0 -50% 0 0;
+        }
 
-    }
+        .uiii {
 
-    .uiii {
+            margin-left: 90%;
 
-        margin-left: 90%;
+        }
 
-    }
+        .ramee {
+            margin-left: 234%;
+            margin-top: -42%;
+            width: 26vw;
+            height: 28vh;
+        }
 
-    .ramee {
-        margin-left: 234%;
-        margin-top: -42%;
-        width: 26vw;
-        height: 28vh;
-    }
+        .iiyc {
+            width: 18vw;
+            height: 18vh;
+            margin-top: 10%;
+        }
 
-    .iiyc {
-        width: 18vw;
-        height: 18vh;
-        margin-top: 10%;
-    }
 
+        .connect {
+            margin-left: -4%;
+            height: 10vh;
+        }
 
-    .connect {
-        margin-left: -4%;
-        height: 10vh;
-    }
+        .dh {
+            margin-left: -5%;
+        }
 
-    .dh {
-        margin-left: -5%;
-    }
+        .uss {
+            margin-left: 2%;
 
-    .uss {
-        margin-left: 2%;
+        }
 
-    }
 
 
+        .conectt {
 
-    .conectt {
+            font-size: medium;
+        }
 
-        font-size: medium;
-    }
+        .conectt {
 
-    .conectt {
+            min-height: 50vh;
+            background-color: black;
+        }
 
-        min-height: 50vh;
-        background-color: black;
-    }
+        .cop {
 
-    .cop {
+            margin-left: 5.5%;
+            margin-top: 3%;
+            width: 18vw;
+            height: 40vh;
+        }
 
-        margin-left: 5.5%;
-        margin-top: 3%;
-        width: 18vw;
-        height: 40vh;
-    }
 
+        .tayi {
 
-    .tayi {
+            width: 20vw;
+        }
 
-        width: 20vw;
-    }
 
+        .ctss {
 
-    .ctss {
+            margin-left: 6%;
+        }
 
-        margin-left: 6%;
-    }
 
 
 
+        .ulist {
 
-    .ulist {
+            margin: -24% 0 0 60%;
 
-        margin: -24% 0 0 60%;
+        }
 
-    }
+        .con-program {
 
-    .con-program {
+            height: 60vh;
+        }
 
-        height: 60vh;
     }
-
-}
 
 
 
@@ -1267,746 +1272,534 @@ ul {
 
 
 
-/* 
+    /* 
     .courselist {
         width: 42.5%;
 
     } */
 
-.co-list {
-    display: inline-flex;
-    flex-wrap: wrap;
-}
-
-.student {
-    /* display: inline-flex; */
-    gap: 10px;
-    width: 80%;
-}
-
-
-.connect {
-    display: block;
-}
-
-.stu {
-    width: 30%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* contact chat styling */
-
-.contact-page {
-    height: 30vh;
-    width: 100%;
-    background-image: url(imajes/programs-pics.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.didi {
-
-    background-color: #646464;
-}
-
-
-.t .conna {
-    background-color: #ccc;
-
-}
-
-/* 
-     Receved chats styling */
-.conna {
-    min-height: 88vh;
-    width: 100%;
-    /* background-color: #646464; */
-}
-
-.chatting {
-    width: 103.4%;
-
-    margin: 0 0 0 -1.7%;
-    font-family: sans-serif;
-    letter-spacing: 0.5px;
-}
-
-.mge {
-    width: 7%;
-    border-radius: 70%;
-    float: left;
-    margin: 10px 0 0 20px;
-}
-
-
-.msg-header {
-    border: 1px solid #ccc;
-    width: 100%;
-
-    border-bottom: none;
-    display: inline-block;
-    background-color: #007bff;
-
-}
-
-msg-header-img {
-    border-radius: 50%;
-    width: 10%;
-    margin-left: 5%;
-    margin-top: 12px;
-    float: left;
-
-}
-
-
-.activee {
-    width: 120px;
-    float: left;
-    margin-top: 10px;
-}
-
-.activee h4 {
-    font-size: px;
-    margin-left: 10px;
-    color: #fff;
-}
-
-.activee h6 {
-    font-size: 10px;
-    margin-left: 10px;
-    color: #fff;
-    line-height: 2px;
-}
-
-.msg-inbox {
-    border: 1px solid #ccc;
-    overflow: hidden;
-    padding-bottom: 40px;
-    min-height: 40vh;
-
-}
-
-.chats {
-    width: 100%;
-    padding: 30px 15px 0 25px;
-
-}
-
-
-.msg-page {
-    height: 70vh;
-    overflow-y: auto;
-    width: 100%;
-    margin-left: -5px;
-    margin-bottom: 4%;
-}
-
-.mge2 {
-    width: 20px;
-    margin: 0px 20px;
-
-    float: left;
-    border-radius: 100%;
-
-}
-
-
-
-.time {
-    color: #777;
-    display: block;
-    font-size: 12px;
-    margin: 8px 0 0;
-}
-
-.received-chats {
-    float: left;
-    margin: 18px 0 0 0;
-    border: 10px rgb(0, 1, 5);
-    width: 70%;
-    padding: 0 0 2px;
-}
-
-.received-msg-inbox {
-    margin-left: 50px;
-}
-
-.received-chats p {
-    background: #efefef none repeat scroll 0 0;
-    color: #646464;
-    border-radius: 10px;
-    margin: 0;
-    padding: 5px 10px 15px 12px;
-    font-size: 14px;
-}
-
-
-
-
-
-
-/* outging chat stayling */
-
-.outgoing-chat-msg {
-    float: right;
-    margin: 18px 0 0 0;
-    border: 10px rgb(0, 1, 5);
-    width: 70%;
-    padding: 0 0 2px;
-}
-
-.outgoing-chat-msg p {
-    background: #efefef none repeat scroll 0 0;
-    color: #646464;
-    border-radius: 10px;
-    margin: 0;
-    padding: 5px 10px 15px 12px;
-    font-size: 14px;
-}
-
-.img3 {
-    width: 20px;
-    margin: 0 20px;
-
-    float: right;
-    border-radius: 20%;
-    margin-bottom: 40px;
-
-}
-
-
-
-.outgoing-msg-inbox {
-    margin-right: 50px;
-}
-
-.insec {
-    width: 103.4%;
-    height: min-50vh;
-    background-color: #007bff;
-    position: relative;
-    margin: 0 0 0 -1.7%;
-
-}
-
-.sec {
-    width: 50%;
-
-    clear: both;
-    border-radius: 50px;
-
-}
-
-
-.icon {
-    position: absolute;
-    width: 20px;
-    margin: 1.5% 0 0 33%;
-
-
-}
-
-
-.icon2 {
-    position: absolute;
-    width: 20px;
-    margin: 4% 0 0 42%;
-
-
-}
-
-
-.aicons {
-
-    margin: 0 0 0 3%;
-
-}
-
-.bicons {
-    margin: 0 0 0 2%;
-
-}
-
-
-@media(min-width:500px) {
-
-    .conna {
-
-
+    .co-list {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .student {
+        /* display: inline-flex; */
+        gap: 10px;
+        width: 80%;
+    }
+
+
+    .connect {
+        display: block;
+    }
+
+    .stu {
         width: 30%;
-        margin: 0 20%;
-        background-color: #76ade7;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* contact chat styling */
+
+    .contact-page {
+        height: 30vh;
+        width: 100%;
+        background-image: url(imajes/programs-pics.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .didi {
+
+        background-color: #646464;
+    }
+
+
+    .t .conna {
+        background-color: #ccc;
 
     }
 
-    .icon {
-        margin: 1.2% 0 0 44.5%;
-
-    }
-
-}
-
-
-@media(min-width:429px) {
-
-    .ulist {
-        margin: 4% 0 0 18%;
-    }
-
-}
-
-
-
-
-@media(min-width:840px) {
-
-
+    /* 
+     Receved chats styling */
     .conna {
+        min-height: 88vh;
+        width: 100%;
+        /* background-color: #646464; */
+    }
 
-        width: 60%;
-        margin-right: 20%;
+    .chatting {
+        width: 103.4%;
+
+        margin: 0 0 0 -1.7%;
+        font-family: sans-serif;
+        letter-spacing: 0.5px;
+    }
+
+    .mge {
+        width: 7%;
+        border-radius: 70%;
+        float: left;
+        margin: 10px 0 0 20px;
     }
 
 
-    .icon {
+    .msg-header {
+        border: 1px solid #ccc;
+        width: 100%;
 
-        margin: 1% 44% 0 45%;
-
-    }
-
-}
-
-
-
-@media(min-width:900px) {
-
-
-    .conna {
-
-
-        width: 60%;
-        margin: 0 20%;
-
-        .icon {
-            margin: 1.5% 43% 0 41%;
-        }
-
+        border-bottom: none;
+        display: inline-block;
+        background-color: #007bff;
 
     }
 
-
-
-    .aicons {
-        margin-left: 8%;
-    }
-
-
-    .bicons {
-
-        margin: 0 0 0 4%;
+    msg-header-img {
+        border-radius: 50%;
+        width: 10%;
+        margin-left: 5%;
+        margin-top: 12px;
+        float: left;
 
     }
 
 
+    .activee {
+        width: 120px;
+        float: left;
+        margin-top: 10px;
+    }
 
-    .iconn {
-        position: absolute;
-        margin: 3.5% 0 0 45%;
+    .activee h4 {
+        font-size: px;
+        margin-left: 10px;
+        color: #fff;
+    }
+
+    .activee h6 {
+        font-size: 10px;
+        margin-left: 10px;
+        color: #fff;
+        line-height: 2px;
+    }
+
+    .msg-inbox {
+        border: 1px solid #ccc;
+        overflow: hidden;
+        padding-bottom: 40px;
+        min-height: 40vh;
 
     }
 
-}
-
-
-@media(min-width:1000px) {
-
-
-    .conna {
-
-
-        width: 60%;
-        margin: 0 20%;
-
-        .icon {
-            margin: 1% 43% 0 41%;
-        }
-
-
-    }
-
-
-
-    .aicons {
-        margin-left: 8%;
-    }
-
-
-    .bicons {
-
-        margin: 0 0 0 4%;
+    .chats {
+        width: 100%;
+        padding: 30px 15px 0 25px;
 
     }
 
 
+    .msg-page {
+        height: 70vh;
+        overflow-y: auto;
+        width: 100%;
+        margin-left: -5px;
+        margin-bottom: 4%;
+    }
 
-    .iconn {
-        position: absolute;
-        margin: 2.5% 0 0 44.8%;
+    .mge2 {
+        width: 20px;
+        margin: 0px 20px;
+
+        float: left;
+        border-radius: 100%;
 
     }
 
-}
+
+
+    .time {
+        color: #777;
+        display: block;
+        font-size: 12px;
+        margin: 8px 0 0;
+    }
+
+    .received-chats {
+        float: left;
+        margin: 18px 0 0 0;
+        border: 10px rgb(0, 1, 5);
+        width: 70%;
+        padding: 0 0 2px;
+    }
+
+    .received-msg-inbox {
+        margin-left: 50px;
+    }
+
+    .received-chats p {
+        background: #efefef none repeat scroll 0 0;
+        color: #646464;
+        border-radius: 10px;
+        margin: 0;
+        padding: 5px 10px 15px 12px;
+        font-size: 14px;
+    }
 
 
 
 
 
 
+    /* outging chat stayling */
+
+    .outgoing-chat-msg {
+        float: right;
+        margin: 18px 0 0 0;
+        border: 10px rgb(0, 1, 5);
+        width: 70%;
+        padding: 0 0 2px;
+    }
+
+    .outgoing-chat-msg p {
+        background: #efefef none repeat scroll 0 0;
+        color: #646464;
+        border-radius: 10px;
+        margin: 0;
+        padding: 5px 10px 15px 12px;
+        font-size: 14px;
+    }
+
+    .img3 {
+        width: 20px;
+        margin: 0 20px;
+
+        float: right;
+        border-radius: 20%;
+        margin-bottom: 40px;
+
+    }
 
 
-@media(min-width:280px) {
+
+    .outgoing-msg-inbox {
+        margin-right: 50px;
+    }
+
+    .insec {
+        width: 103.4%;
+        height: min-50vh;
+        background-color: #007bff;
+        position: relative;
+        margin: 0 0 0 -1.7%;
+
+    }
 
     .sec {
         width: 50%;
+
+        clear: both;
+        border-radius: 50px;
+
     }
+
 
     .icon {
+        position: absolute;
+        width: 20px;
+        margin: 1.5% 0 0 33%;
 
-        margin: 2% 43% 0 35%;
+
     }
+
 
     .icon2 {
+        position: absolute;
+        width: 20px;
+        margin: 4% 0 0 42%;
 
-        width: 4px;
-        margin: 5% 0 0 42.5%;
+
     }
-
 
 
     .aicons {
-        margin-left: 2%;
+
+        margin: 0 0 0 3%;
+
     }
 
     .bicons {
-        width: 2px;
-        margin: 0 0 0 8%;
-    }
-
-    .bae {
-        position: absolute;
-        margin: 5% 0 0 -2%;
-    }
-}
-
-
-
-@media(min-width:700px) {
-
-
-    .bae {
-        position: absolute;
-        margin: 3.2% 0 0 0.4%;
-    }
-
-    .icon {
-
-        margin: 1.5% 44% 0 36%;
+        margin: 0 0 0 2%;
 
     }
 
-    .icon2 {
 
-        position: absolute;
+    @media(min-width:500px) {
 
-        margin: 3.8% 44.2%;
+        .conna {
+
+
+            width: 30%;
+            margin: 0 20%;
+            background-color: #76ade7;
+
+        }
+
+        .icon {
+            margin: 1.2% 0 0 44.5%;
+
+        }
+
     }
 
-}
+
+    @media(min-width:429px) {
+
+        .ulist {
+            margin: 4% 0 0 18%;
+        }
+
+    }
 
 
 
-.topi {
-    width: 20vw;
-    height: 4vh;
-}
+
+    @media(min-width:840px) {
+
+
+        .conna {
+
+            width: 60%;
+            margin-right: 20%;
+        }
+
+
+        .icon {
+
+            margin: 1% 44% 0 45%;
+
+        }
+
+    }
 
 
 
-/* 
+    @media(min-width:900px) {
+
+
+        .conna {
+
+
+            width: 60%;
+            margin: 0 20%;
+
+            .icon {
+                margin: 1.5% 43% 0 41%;
+            }
+
+
+        }
+
+
+
+        .aicons {
+            margin-left: 8%;
+        }
+
+
+        .bicons {
+
+            margin: 0 0 0 4%;
+
+        }
+
+
+
+        .iconn {
+            position: absolute;
+            margin: 3.5% 0 0 45%;
+
+        }
+
+    }
+
+
+    @media(min-width:1000px) {
+
+
+        .conna {
+
+
+            width: 60%;
+            margin: 0 20%;
+
+            .icon {
+                margin: 1% 43% 0 41%;
+            }
+
+
+        }
+
+
+
+        .aicons {
+            margin-left: 8%;
+        }
+
+
+        .bicons {
+
+            margin: 0 0 0 4%;
+
+        }
+
+
+
+        .iconn {
+            position: absolute;
+            margin: 2.5% 0 0 44.8%;
+
+        }
+
+    }
+
+
+
+
+
+
+
+
+    @media(min-width:280px) {
+
+        .sec {
+            width: 50%;
+        }
+
+        .icon {
+
+            margin: 2% 43% 0 35%;
+        }
+
+        .icon2 {
+
+            width: 4px;
+            margin: 5% 0 0 42.5%;
+        }
+
+
+
+        .aicons {
+            margin-left: 2%;
+        }
+
+        .bicons {
+            width: 2px;
+            margin: 0 0 0 8%;
+        }
+
+        .bae {
+            position: absolute;
+            margin: 5% 0 0 -2%;
+        }
+    }
+
+
+
+    @media(min-width:700px) {
+
+
+        .bae {
+            position: absolute;
+            margin: 3.2% 0 0 0.4%;
+        }
+
+        .icon {
+
+            margin: 1.5% 44% 0 36%;
+
+        }
+
+        .icon2 {
+
+            position: absolute;
+
+            margin: 3.8% 44.2%;
+        }
+
+    }
+
+
+
+    .topi {
+        width: 20vw;
+        height: 4vh;
+    }
+
+
+
+    /* 
    About styling */
 
 
-.our {
-    border: 0px;
-}
-
-
-.con-about {
-    height: 20vh;
-    width: 100%;
-    background-image: url(imajes/handshake.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-
-
-.mvv {
-
-
-    width: 90%;
-}
-
-
-
-.mvi {
-    width: 100%;
-    margin-right: 40px;
-}
-
-
-.move {
-
-    margin: 0 0 0 4%;
-}
-
-
-.bb {
-    width: 120%;
-    border: 1px solid rgb(195, 0, 255);
-}
-
-.flexcontainer {
-    width: 100%;
-    display: inline-flex;
-    background-color: rgb(32, 28, 28);
-    gap: 4%;
-    position: relative;
-    min-height: 30vh;
-
-}
-
-
-.iiy {
-    margin-top: 12%;
-}
-
-.ddb {
-    height: 5vh;
-}
-
-.rightt {
-
-    margin-left: 12%;
-}
-
-.rame {
-    text-align: center;
-    height: 12vh;
-    width: 25vw;
-    margin: 15% 0 0 35%;
-    position: absolute;
-}
-
-.rame:hover {
-
-    background-color: #0c0c0c;
-
-}
-
-.toggler {
-    margin-top: 2%;
-    margin-left: 2%;
-}
-
-.avt {
-    margin-top: 2%;
-    margin-left: 2%;
-}
-
-.abtt {
-    color: rgb(119, 23, 22);
-}
-
-.mission {
-
-    margin-top: 15%;
-    margin-left: 2%;
-}
-
-.about-content {
-    background-color: rgb(209, 201, 201);
-}
-
-.usss {
-    margin-left: 20%;
-}
-
-.usss li a:hover {
-    color: #225d9c;
-}
-
-.haas {
-    margin-left: 2%;
-}
-
-.rightt {
-    margin-right: 4%;
-}
-
-.follow {
-
-    width: 30vw;
-}
-
-.clist {
-    margin-left: 5%;
-
-}
-
-.seful {
-    position: absolute;
-    margin-left: 10%;
-}
-
-.ul-inline-block {
-    margin-top: 25%;
-}
-
-.tosd {
-    margin-top: 50%;
-}
-
-.accim {
-    width: 90vw;
-}
-
-
-/* For small phones */
-@media (max-width:359px) {
-
-    .ul-inline-block {
-        margin-top: 50%;
+    .our {
+        border: 0px;
     }
-
-}
-
-
-
-
-/* For big screens phones */
-@media (min-width:760px) {
-
-    .about-content {
-        font-size: x-large;
-    }
-
-    .follow {
-
-        width: 40vw;
-
-    }
-
-    .ul-inline-block {
-        margin-top: 10%;
-    }
-
-    .seful {
-        margin-left: 20%;
-    }
-
-    .haas {
-
-        margin-left: 10%;
-    }
-
-
-    .fess {
-        margin-left: 10%;
-    }
-
-
-    .rame {
-        text-align: center;
-        height: 12vh;
-        width: 25vw;
-        margin: 5% 0 0 38%;
-        position: absolute;
-    }
-
-
-    .tib {
-        margin: -40% 25% 0 0;
-
-    }
-
 
 
     .con-about {
-        height: 60vh;
+        height: 20vh;
+        width: 100%;
+        background-image: url(imajes/handshake.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 
 
-}
 
-@media (min-width:950px) {
+    .mvv {
+
+
+        width: 90%;
+    }
+
+
 
     .mvi {
-        width: 40vw;
+        width: 100%;
+        margin-right: 40px;
     }
 
 
+    .move {
 
-
-
-
-}
-
-
-@media (max-width:767px) {
-
-
-    .rame {
-
-        margin-left: 6%;
+        margin: 0 0 0 4%;
     }
 
 
-    .rightt {
-        width: 60vw;
-        margin-left: -5%;
-    }
-
-    .left {
-        width: 40vw;
-    }
-
-    .clist {
-        position: relative;
-
-
-
+    .bb {
+        width: 120%;
+        border: 1px solid rgb(195, 0, 255);
     }
 
     .flexcontainer {
@@ -2020,51 +1813,264 @@ msg-header-img {
     }
 
 
-        .topi {
-            width: 25vw;
-            height: 6vh;
-    margin: 0 0 0 -20%;
-        }
-
-}
-
-
-
-@media (max-width:359px) {
-
-
-    .rame {
-        margin: 18% 0 0 3%;
+    .iiy {
+        margin-top: 12%;
     }
 
+    .ddb {
+        height: 5vh;
+    }
 
     .rightt {
-        width: 60vw;
-        margin-left: -5%;
-        margin-top: -35%;
+
+        margin-left: 12%;
     }
 
-    .left {
+    .rame {
+        text-align: center;
+        height: 12vh;
+        width: 25vw;
+        margin: 15% 0 0 35%;
+        position: absolute;
+    }
 
-        width: 40vw;
+    .rame:hover {
+
+        background-color: #0c0c0c;
+
+    }
+
+    .toggler {
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .avt {
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .abtt {
+        color: rgb(119, 23, 22);
+    }
+
+    .mission {
+
+        margin-top: 15%;
+        margin-left: 2%;
+    }
+
+    .about-content {
+        background-color: rgb(209, 201, 201);
+    }
+
+    .usss {
+        margin-left: 20%;
+    }
+
+    .usss li a:hover {
+        color: #225d9c;
+    }
+
+    .haas {
+        margin-left: 2%;
+    }
+
+    .rightt {
+        margin-right: 4%;
+    }
+
+    .follow {
+
+        width: 30vw;
     }
 
     .clist {
-        position: relative;
-        width: 60vw;
-        margin-left: -4%;
+      
+        /* background-color: #225d9c; */
 
     }
 
-    .flexcontainer {
-        width: 100%;
-        min-height: 40vh;
+    .seful {
+        position: absolute;
+        margin-left: 10%;
     }
 
-    .topi {
-        width: 25vw;
-height: 7vh;
-margin: 0 0 0 -10%;
+    .ul-inline-block {
+        margin-top: 25%;
+    }
+
+    .tosd {
+        margin-top: 50%;
+    }
+
+    .accim {
+        width: 90vw;
+    }
+
+
+    /* For small phones */
+    @media (max-width:359px) {
+
+        .ul-inline-block {
+            margin-top: 50%;
+        }
 
     }
-}
+
+
+
+
+    /* For big screens phones */
+    @media (min-width:760px) {
+
+        .about-content {
+            font-size: x-large;
+        }
+
+        .follow {
+
+            width: 40vw;
+
+        }
+
+        .ul-inline-block {
+            margin-top: 10%;
+        }
+
+        .seful {
+            margin-left: 20%;
+        }
+
+        .haas {
+
+            margin-left: 10%;
+        }
+
+
+        .fess {
+            margin-left: 10%;
+        }
+
+
+        .rame {
+            text-align: center;
+            height: 12vh;
+            width: 25vw;
+            margin: 5% 0 0 38%;
+            position: absolute;
+        }
+
+
+        .tib {
+            margin: -40% 25% 0 0;
+
+        }
+
+
+
+        .con-about {
+            height: 60vh;
+        }
+
+
+    }
+
+    @media (min-width:950px) {
+
+        .mvi {
+            width: 40vw;
+        }
+
+
+
+
+
+
+    }
+
+
+    @media (max-width:767px) {
+
+
+        .rame {
+
+            margin-left: 6%;
+        }
+
+
+        .rightt {
+            width: 60vw;
+            margin-left: -5%;
+        }
+
+        .left {
+            width: 40vw;
+        }
+
+        .clist {
+            position: relative;
+
+
+
+        }
+
+        .flexcontainer {
+            width:99.8%;
+            display: inline-flex;
+            background-color: rgb(32, 28, 28);
+            gap: 4%;
+            position: relative;
+            min-height: 30vh;
+
+        }
+
+
+        .topi {
+            width: 25vw;
+            height: 6vh;
+            margin: 0 0 0 -20%;
+        }
+
+    }
+
+
+
+    @media (max-width:359px) {
+
+
+        .rame {
+            margin: 18% 0 0 3%;
+        }
+
+
+        .rightt {
+            width: 60vw;
+            margin-left: -5%;
+            margin-top: -35%;
+        }
+
+        .left {
+
+            width: 40vw;
+        }
+
+        .clist {
+            position: relative;
+            width: 60vw;
+            margin-left: -4%;
+
+        }
+
+        .flexcontainer {
+            width: 100%;
+            min-height: 40vh;
+        }
+
+        .topi {
+            width: 25vw;
+            height: 7vh;
+            margin: 0 0 0 -10%;
+
+        }
+    }
