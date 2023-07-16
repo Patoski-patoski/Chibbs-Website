@@ -302,13 +302,45 @@
     .toggler-ddent {
         margin: 0 0 0 85%;
     }
-.ilist{
 
-width: 53vw;
-margin: -20% 0 0 -120%;
+    .ilist {
+
+        width: 63vw;
+        margin: -20% 0 0 -70%;
 
 
-}
+    }
+
+    .interact {
+        color: #121244;
+        position: absolute;
+        margin: 2% 0 0 4%;
+        font-style: oblique;
+        font-size: xx-large;
+    }
+
+    .pim {
+        margin-left: 30%;
+
+    }
+
+    .ddent {
+
+        padding: 0 0 0 12%;
+
+
+    }
+
+
+
+    .dddi {
+
+        margin: 0 0 0 25%;
+
+
+    }
+
+
 
 
     @media(min-width:450px) {
@@ -322,11 +354,115 @@ margin: -20% 0 0 -120%;
         }
 
         .pim {
-
             margin-left: 10%;
+        }
+
+    }
+
+
+
+
+
+
+    @media(min-width:360px) {
+
+        .interact {
+            color: #121244;
+            position: absolute;
+            margin: 0% 0 0 9%;
+            font-style: oblique;
+            font-size: xx-large;
+        }
+
+
+        .pim {
+            margin: 0 0 0 35%;
 
         }
     }
+
+
+
+    @media(min-width:769px) {
+
+        .interact {
+            color: #121244;
+            position: absolute;
+            margin: 10% 0 0 12%;
+            font-style: oblique;
+            font-size: xx-large;
+        }
+
+
+        .pim {
+            margin: 0 0 0 35%;
+
+        }
+
+        .ddent {
+        margin: 0 0% 0 -11.5%;
+        }
+
+        .dddi {
+            margin: 0 0 0 30%;
+        }
+.ilist {
+    width: 63vw;
+    margin:10% 0 0 20%;
+}
+
+
+.jkg{
+
+    font-size: 50px;
+}
+
+    }
+
+
+
+@media(min-width:500px) {
+
+    .interact {
+        color: #121244;
+        position: absolute;
+        margin: 2% 0 0 4%;
+        font-style: oblique;
+        font-size: xx-large;
+    }
+
+
+    .pim {
+        margin: 0 0 0 35%;
+
+    }
+
+    .ddent {
+        margin: 0 0% 0 0%;
+    }
+
+    .dddi {
+        margin: 0 0 0 20%;
+    }
+
+    .ilist {
+        width: 63vw;
+        margin: 10% 0 0 20%;
+    }
+
+
+    .jkg {
+
+        font-size: 50px;
+    }
+
+}
+
+
+
+
+
+
 
 
 
@@ -1886,7 +2022,7 @@ margin: -20% 0 0 -120%;
     }
 
     .clist {
-      
+
         /* background-color: #225d9c; */
 
     }
@@ -2016,7 +2152,7 @@ margin: -20% 0 0 -120%;
         }
 
         .flexcontainer {
-            width:99.8%;
+            width: 99.8%;
             display: inline-flex;
             background-color: rgb(32, 28, 28);
             gap: 4%;
